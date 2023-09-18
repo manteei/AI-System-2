@@ -4,5 +4,17 @@ agression_scale value 3
 player_in_game value true
 Вывести игроков, живущих в норах
 have_habitat value burrow
+Вывести игроков с дополнительным качеством "большой"
+have_quality value big
+Вывести все дополнительные качества игрока
+have_quality value lara
 Найти игрока, который аэробионт и отбрасывает хвост
 (have_habitat value aerobionts) and (have_quality value tail_flick)
+Найти игрока, который водоплавающий или хищник
+(have_habitat value waterfowl) or (have_nutricion value predator)
+Найти все дополнитиельные свойства игрока с типом питания паразит
+have_quality some (have_nutricion value parasite)
+Найти игрока со дополнительным качеством спячка, тип питания паразит, тип взаимодействия симбиоз
+(have_quality value hibernation) and (have_nutricion value parasite) and (have_interaction value symbiosis)
+
+
