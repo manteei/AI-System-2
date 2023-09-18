@@ -1,0 +1,8 @@
+Вывести сущности, у которых уровень агрессии равен 3
+agression_scale value 3
+Проверить какие игроки сейчас находятся в игре
+player_in_game value true
+Вывести игроков, живущих в норах
+have_habitat value burrow
+Найти игрока, который аэробионт и отбрасывает хвост
+(have_habitat value aerobionts) and (have_quality value tail_flick)
